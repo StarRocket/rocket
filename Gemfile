@@ -14,3 +14,8 @@ gem 'haml', '~> 4.0.5'
 gem 'simple_form', '~> 3.0.2'
 gem 'devise', '~> 3.4.1'
 gem 'mailgun-ruby', '~>1.0.3', require: 'mailgun'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
