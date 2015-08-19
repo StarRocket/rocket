@@ -1,0 +1,16 @@
+zh-TW:
+  activerecord:
+    attributes:
+      user:
+        password: "密碼"
+        password_confirmation: "請再確認一次您的密碼"
+        terms: "會員使用條款"
+        privacy_policy: "隱私權條款"
+    errors:
+      models:
+        user:
+          attributes:
+            privacy_policy:
+              terms_not_accepted: "請同意隱私權條款"
+            terms:
+              terms_not_accepted: "請同意會員使用條款"

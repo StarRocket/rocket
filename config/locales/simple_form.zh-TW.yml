@@ -10,3 +10,10 @@ zh-TW:
       # html: '<abbr title="required">*</abbr>'
     error_notification:
       default_message: "很抱歉，請您再檢查一下："
+    labels:
+      user:
+        terms: '會員條款'
+        password: 'Password'
+    placeholders:
+      user:
+        terms: 'Your username'
