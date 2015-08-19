@@ -16,10 +16,10 @@ development:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: forum_development
+  database: rocket_development
   pool:     5
-  username: linyiru
-  password: 
+  username:
+  password:
   template: template0
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -44,18 +44,18 @@ test:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: forum_test
+  database: rocket_test
   pool:     5
-  username: linyiru
-  password: 
+  username:
+  password:
   template: template0
 
 production:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: forum_production
+  database: rocket_production
   pool:     5
-  username: linyiru
-  password: 
+  username:
+  password:
   template: template0
