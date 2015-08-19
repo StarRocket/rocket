@@ -3,8 +3,8 @@ html
   head
     meta[name="viewport" content="width=device-width, initial-scale=1.0"]
     title
-      = content_for?(:title) ? yield(:title) : 'Forum'
-    meta name="description" content="#{content_for?(:description) ? yield(:description) : 'Forum'}"
+      = content_for?(:title) ? yield(:title) : 'Star Rocket 會員註冊系統'
+    meta name="description" content="#{content_for?(:description) ? yield(:description) : '三創育成基金會'}"
     == stylesheet_link_tag "application", :media => 'all'
     == javascript_include_tag 'application'
     == csrf_meta_tags
